@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <!-- tailwind &d daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- monrap google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/a62acf7f91.js" crossorigin="anonymous"></script>
+<!-- tailwind-custom-color -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .font-manrope{
+        font-family: "Manrope", sans-serif;
+    }
+</style>
+</head>
+<body class=".font-manrope">
+    <header class="container mx-auto">
+       <div class="hero ">
+  <div class="hero-content flex-col lg:flex-row">
+    <div>
+      <h1 class="text-7xl font-extrabold">Its good <br>
+      tea time at the house <br>
+    Tea house</h1>
+      <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+      <button class="btn btn-primary bg-orange-400 text-white">Explore More</button>
+    </div>
+    <div>
+<img src="images/banner.png" class="max-w-sm " />
+<!-- ratting -->
+<div class="-mt-14 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60">
+  <i class="fa-solid fa-star text-3xl text-amber-400 "></i>
+  <div>
+    <h3 class="text3xl">5.00</h3>
+    <p>Trust pilot Rating</p>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+    </header>
+    <main class="container mx-auto">
+      <!-- featured section -->
+         <section class="text-center mt-24">
+             <h2 class="text-5xl font-extrabold mb-5">Our featured product</h2>
+             <p class="lg:mx-w-3xl mb-10 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quod architecto quaerat numquam odit totam, voluptatem asperiore Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi neque aliquid unde ab doloribus fugiat explicabo cupiditate, adipisci voluptatum molestias doloremque. Beatae officia error </p>
+             <!-- featured tea card container -->
+             <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+              
+              <!-- first card -->
+               <div class="card  p-6 bg-gradient-to-r from-slate-300 bg-green-200 shadow-xl">
+  <figure><img src="images/tea-1.png" alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="text-2xl font-bold">Milk Tea</h2>
+    <p>It's very  delicious & juicy & tasty</p>
+  </div>
+</div>
+<!-- second card -->
+               <div class="card  p-6 bg-gradient-to-r from-slate-300 bg-green-200 shadow-xl">
+  <figure><img src="images/tea-2.png" alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="text-2xl font-bold">Milk Tea</h2>
+    <p>It's very  delicious & juicy & tasty</p>
+  </div>
+</div>
+<!-- third card -->
+               <div class="card  p-6 bg-gradient-to-r from-slate-300 bg-green-200 shadow-xl">
+  <figure><img src="images/tea-3.png" alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="text-2xl font-bold">Milk Tea</h2>
+    <p>It's very  delicious & juicy & tasty</p>
+  </div>
+</div>
+<!-- fourth card -->
+<div class="card  p-6 bg-gradient-to-r from-slate-300 bg-green-200 shadow-xl">
+  <figure><img src="images/tea-4.png" alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="text-2xl font-bold">Milk Tea</h2>
+    <p>It's very  delicious & juicy & tasty</p>
+  </div>
+</div>
+
+             
+             
+             </div>
+             
+      
+             </div>
+             
+             </section>
+             <!-- grat tea and fresh tea section -->
+             <section class="my-24 gap-8 flex flex-col lg:flex-row">
+              <div class=" flex-1 grid gap-8 grid-cols-1 md:grid-cols-2 ">
+                  <div class="w-50 row-span-2 p-20 bg-gradient-to-r from-slate-300 bg-green-100 shadow-xl rounded-lg "><img src="images/fresh-1.png" alt=""></div>
+                  <div class=" w-50 row-span-2 p-20 bg-gradient-to-r from-slate-300 fill-white shadow-xl rounded-lg"><img src="images/fresh-2.png" alt=""></div>
+               
+              </div>
+              <div class="flex-1 space-y-5 ">
+                <h3 class="text-5xl font-semibold">Great tea, freshly <br>presented</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, nulla?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur consequuntur ipsam iure amet, eveniet inventore! Laudantium laborum voluptate necessitatibus sed facere accusantium, rerum, sit sint provident repellendus ea vel amet!</p>
+                <h4 class="text-xl font-extrabold">Unique Taste</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus quaerat sapiente sint asperiores illum consequuntur inventore at ipsum hic natus?</p>
+                <h4 class="text-xl font-extrabold">Premium Quality</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, natus?</p>
+              </div>
+
+             </section>
+             <!-- super client list -->
+             <section class="my-24 flex flex-col lg:flex-row gap-8 rounded-lg bg-gradient-to-r from-orange-500 to-red-500 p-24">
+                  <div class="space-y-5 ">
+                    <h2 class="text-white text-5xl font-extrabold">Meet our super <br> clients</h2>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis similique deleniti voluptates, alias officia minima provident commodi magni saepe sequi. Quod laboriosam repellendus possimus vel earum repellat pariatur quasi veniam.</p>
+                    <button class="text-white btn btn-primary">Show all</button>
+                  </div>
+                  <div>
+                    <!-- customer review -->
+                    <div class=" relative p-10 rounded-lg bg-white">
+                      <img class="absolute -top-8 -left-10" src="images/client.png" alt="">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, iure est? Provident recusandae, iusto pariatur eaque esse tempore alias nemo Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, praesentium.</p>
+                      <h4 class="font-semibold mt-5">IIham Huda</h4>
+                      <p class="font-medium">Bussismen</p>
+                    </div>
+                  </div>
+             </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
